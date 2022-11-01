@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    height: 23px;
+}
+.nav-item dropdown{
+    left: 20px;
+}
+.para{
+    background-color:#950c17!important;
+   
+   
+}
+.para p{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.carousel-caption h3,p {
+    color: black;
+    
+}
+
+.img{
+    float: left;
+    margin:6px 15px;
+    text-align: center;
+  
+}
+
+.section{
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+ 
+.content a{
+    color: black;
+    font-weight: bold;
+}
+.icon{
+    float: right;
+    right: 50px;
+    margin-left: 110px;
+}
+
+.icon img{
+    width: 22px;
+    margin: 10px;
+    
+}  
+   
+
+.col-3{
+    margin:0 0px;
+    width: 100%;
+    
+}
+.col-3 img{
+    width: 100%;
+}
+
+.col-3 button{
+    padding: 4px 12px;
+    background-color: #950c17;
+    border: none;
+    color: white;
+    margin-top:10px;
+    float: left;
+   
+    
+   
+
+}
+.col-3 a{
+    text-decoration: none;
+    color: #950c17;
+    margin: 10px;
+    float: left;
+}
+.col-3 p{
+    text-align: justify;
+    
+}
+.col-3 h4{
+    color: black;
+    margin: 6px;
+    text-align: justify;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    
+  }
+
+  .center{
+    position: absolute;
+    bottom: 76%;
+    right: 120px;
+  }
+
+  .center  h2{
+    color:black;
+    text-align: justify;
+  }
+
+  .center button{
+    padding:7px;
+    background-color: black;
+    color:white;
+    float: left;
+  }
+  .image img{
+    width: 100%;
+    
+  }
+
+  .business{
+    color:black;
+    padding:20px;
+
+}
+
+.text-block {
+    position: absolute;
+    bottom: 100px;
+    right: 700px;
+    background-color:white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:30px;
+    padding: 10px 30px;
+    text-align: justify;
+  }
+
+  .fa-brands{
+    padding:15px;
+  }
+  .col-2 h6{
+    color:black;
+  }
+footer{
+    background-color: rgb(243, 242, 242);
+}
+  .col-2 p{
+    font-size: 12px;
+  }
+  .row{
+    margin:auto;
+    text-align: justify;
+    justify-content: center;
+
+    
+  }
+  
+.col-2{
+    margin-left:20px;
+    margin-top:20px;
+}
+.col-2 h5{
+    margin-top:20px;
+}
+
+ .carousel-inner .carousel-caption {
+    width: 400px;
+    position: absolute;
+    right: 70%;
+    bottom: 1.25rem;
+    left: 10%;
+    padding-top: 1.25rem;
+    padding-bottom: 12.25rem;
+    color: #fff;
+    text-align: justify;
+}
+.carousel-caption h5,p{
+    text-align: justify;
+}
+.mt-3{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    footer {
+      background-color: rgb(187, 186, 186);
+      
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+    .row .col-2 {
+      width:45%;
+      
+      
+    }
+    .row{
+        margin:auto;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .col-2 h5 {
+      font-size:20px;
+      
+    }
+    .col-2 p{
+        font-size:12px;
+        margin: 5px 0px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .section {
+      width: 550px;
+      height: 500px;
+      float: left;
+      margin-bottom:-120px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .container .row .col-3{
+        width: 48%;
+    }
+    
+    .container h4 {
+      font-size: 12px;
+    }
+    .container p{
+        font-size: 10px;
+    }
+    .container a{
+        font-size: 10px;
+    }
+  }
+
+  @media  only screen  and (max-width:500px){
+    .center h2 {
+        font-size: 16px;
+        text-align: center;
+        margin-left:-200px;
+        
+       
+    }
+    .center p{
+        font-size: 12px;
+        text-align: start;
+        width: 100%;
+        margin-top:-150px;
+        margin-left:60px;
+        
+        
+        
+    }
+    .center button{
+        font-size: 8px;
+        padding:5px;
+        margin-left:55px;
+
+    }
+    .center{
+        width: 40%;
+        height: 50px;
+    }
+    
+  }
+
+ @media screen and (max-width:600px) {
+    .mt-3{
+        font-size: 10px;
+    }
+ }
+ @media screen and (max-width:600px) {
+    .carousel-inner img{
+          width: 100%;
+          height: 200px;
+    }
+
+    .carousel-caption h3{
+           font-size: 12px;
+           color:black;
+           padding:0px;
+           margin:0px;
+    }
+    .carousel-inner .carousel-caption {
+        width: 100%;
+        position: absolute;
+        right: 0%;
+        bottom: 1.25rem;
+        left: 0%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: justify;
+    }
+    
+ }
